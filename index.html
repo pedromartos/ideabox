@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <title>Ideabox</title>
+
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <nav>
+      <h1>Ideabox</h1>
+
+      <section>
+        <h2>Filter Starred Ideas</h2>
+        <button>Show Starred Ideas</button>
+      </section>
+    </nav>
+
+    <main>
+      <section id="idea-form">
+        <form action="">
+          <div class="field-box">
+            <label for="title">
+              Title
+            </label>
+
+            <input type="text" name="title" id="title" maxlength="10">
+          </div>
+
+          <div class="field-box">
+            <label for="body">
+              Body
+            </label>
+
+            <textarea name="body" id="body" maxlength="10"></textarea>
+          </div>
+
+          <button>Save</button>
+        </form>
+
+        <div class="search-box">
+          <button>
+            <img src="img/search.svg">
+          </button>
+
+          <input type="text" id="search-input" placeholder="Search Ideas">
+        </div>
+      </section>
+
+      <section id="idea-container">
+        <article>
+          <header>
+            <img src="img/star.svg">
+
+            <img src="img/delete.svg">
+          </header>
+
+          <div class="body">
+            <h3>Idea title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum iste nulla labore accusantium repellat libero quaerat mollitia, officia deserunt!</p>
+          </div>
+
+          <footer>
+            <button>
+              <img src="img/comment.svg">
+
+              Comment
+            </button>
+          </footer>
+        </article>
+      </section>
+    </main>
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
